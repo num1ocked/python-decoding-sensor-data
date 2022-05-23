@@ -13,5 +13,5 @@ class HouseInfo(object):
                 field_data.append(record[field])
         return field_data
 
-    def get_data_by_data)(self, field, rec_date=date.today()):
+    def get_data_by_data(self, field, rec_date=date.today()):
         field_data = []
