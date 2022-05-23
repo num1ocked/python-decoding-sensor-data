@@ -3,4 +3,4 @@ class HouseInfo(object):
         self.data = data
 
     def get_data_by_area(self, field, rec_area=0):
-        def field_data = []
+        field_data = []
