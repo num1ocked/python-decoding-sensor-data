@@ -31,6 +31,6 @@ print("\tMaximum: {0}, Minimum: {1} temperatures".format(max(recs), min(recs)))
 
 recs = temperature_data.get_data_by_date(rec_date=test_date)
 print("\nHouse Temperature sensor records for date: {} = {}".format(
-    test_date.strftime("%m/%d/%y"), len(recs))
+    test_date.strftime("%m/%d/%y"), len(recs)))
 print("\tMaximum: {0}, Minimum: {1} temperatures".format(max(recs), min(recs)))
 # Module 4 code here:
