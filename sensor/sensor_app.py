@@ -4,6 +4,7 @@ from house_info import HouseInfo
 from datetime import date, datetime
 from temperature_info import TemperatureData
 from humidity_info import HumidityData
+from statistics import mean
 
 ##############################
 # Do not remove these two lines
