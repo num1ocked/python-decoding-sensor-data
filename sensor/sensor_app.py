@@ -4,9 +4,9 @@ from load_data import load_sensor_data
 ##############################
 # Do not remove these two lines
 # They are needed to validate your unittest
+data = []
+print("Sensor Data App")
 ##############################
-
-# Module 1 code here:
 
 # Module 2 code here:
 data = load_sensor_data()
