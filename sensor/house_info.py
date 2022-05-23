@@ -1,4 +1,4 @@
-from datetime imporot date, datetime
+from datetime import date, datetime
 
 class HouseInfo(object):
     def __init__(self, data):
