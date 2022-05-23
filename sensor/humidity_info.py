@@ -1,4 +1,4 @@
-from house_info import house_info
+from house_info import HouseInfo
 
 class HumidityData(HouseInfo):
     def _convert_data(self, data):
