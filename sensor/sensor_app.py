@@ -15,8 +15,8 @@ print("Loaded records: {}".format(len(data)))
 # Module 2 code here:
 house_info = HouseInfo(data)
 test_area = 1
-recs = get_data_by_area("id", rec_area=test_area)
-print("House sensor records for area {} = {}".format(test_area, len(recs)))
+recs = house_info.get_data_by_area("id", rec_area=test_area)
+print("\nHouse sensor records for area {} = {}".format(test_area, len(recs)))
 # Module 3 code here:
 
 # Module 4 code here:
